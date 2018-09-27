@@ -1,0 +1,69 @@
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+.row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.card{
+    border: 2px #e5e4e4d1 solid;
+    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #f8f4f461;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    margin-top: 8%;
+}
+.img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.form-group {
+    display: inline-block;
+    width: 250px;
+  
+}
+.texto{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.l-text{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.form-control{
+    margin-top: 10px;
+    padding: 11px 69px 11px 30px;
+    border: 5px #999999fa solid;
+    border-radius: 10px;
+    background-color: #999999fa;
+    text-align: center;
+  
+    
+}
+.button{
+    margin-top: 10px;
+    padding: 11px 100px 11px 100px;
+    border: 5px #010815 solid;
+    border-radius:56px;
+    background-color: #010815;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
